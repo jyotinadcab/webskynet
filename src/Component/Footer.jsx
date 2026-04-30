@@ -32,28 +32,28 @@ const Footer = () => {
 
             <div className="mt-6 flex items-center gap-2">
               <a
-                href="#"
+                href="https://facebook.com"
                 className="w-7 h-7 rounded bg-white/10 hover:bg-white/20 flex items-center justify-center"
                 aria-label="Facebook"
               >
                 <FaFacebookF size={12} />
               </a>
               <a
-                href="#"
+                href="https://twitter.com"
                 className="w-7 h-7 rounded bg-white/10 hover:bg-white/20 flex items-center justify-center"
                 aria-label="Twitter"
               >
                 <FaTwitter size={12} />
               </a>
               <a
-                href="#"
+                href="https://instagram.com"
                 className="w-7 h-7 rounded bg-white/10 hover:bg-white/20 flex items-center justify-center"
                 aria-label="Instagram"
               >
                 <FaInstagram size={12} />
               </a>
               <a
-                href="#"
+                href="https://linkedin.com"
                 className="w-7 h-7 rounded bg-white/10 hover:bg-white/20 flex items-center justify-center"
                 aria-label="LinkedIn"
               >
@@ -65,20 +65,20 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Explore</h3>
             <ul className="space-y-2 text-sm text-white/85">
-              <li><a href="#" className="hover:text-white">Home</a></li>
-              <li><a href="#" className="hover:text-white">About</a></li>
-              <li><a href="#" className="hover:text-white">Portfolio</a></li>
-              <li><a href="#" className="hover:text-white">Contact</a></li>
+              <li><a href="/" className="hover:text-white">Home</a></li>
+              <li><a href="/about" className="hover:text-white">About</a></li>
+              <li><a href="/portfolio" className="hover:text-white">Portfolio</a></li>
+              <li><a href="/contact" className="hover:text-white">Contact</a></li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-xl font-bold mb-4">Resources</h3>
             <ul className="space-y-2 text-sm text-white/85">
-              <li><a href="#" className="hover:text-white">Services</a></li>
-              <li><a href="#" className="hover:text-white">FAQ</a></li>
-              <li><a href="#" className="hover:text-white">Blog</a></li>
-              <li><a href="#" className="hover:text-white">Careers</a></li>
+              <li><a href="/services" className="hover:text-white">Services</a></li>
+              <li><a href="/faq" className="hover:text-white">FAQ</a></li>
+              <li><a href="/blog" className="hover:text-white">Blog</a></li>
+              <li><a href="/careers" className="hover:text-white">Careers</a></li>
             </ul>
           </div>
 
@@ -111,9 +111,9 @@ const Footer = () => {
             <span className="text-[#ff5a1f]">Prak Chaturvedi</span>
           </p>
           <div className="flex items-center gap-4">
-            <a href="#" className="hover:text-white">Privacy Policy</a>
-            <a href="#" className="hover:text-white">Refund Policy</a>
-            <a href="#" className="hover:text-white">Terms &amp; Conditions</a>
+            <a href="/privacy-policy" className="hover:text-white">Privacy Policy</a>
+            <a href="/refund-policy" className="hover:text-white">Refund Policy</a>
+            <a href="/terms-and-conditions" className="hover:text-white">Terms &amp; Conditions</a>
           </div>
         </div>
       </div>
